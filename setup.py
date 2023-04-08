@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='football-viz',
+    name='football_viz',
     version='0.1.0',
-    py_modules=['football_viz'],
+    packages=find_packages(),
     install_requires=[
         'matplotlib',
         'adjustText',
